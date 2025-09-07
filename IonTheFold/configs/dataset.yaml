@@ -1,0 +1,3 @@
+root: data
+train_manifest: data/manifests/train.csv
+val_manifest: data/manifests/val.csv

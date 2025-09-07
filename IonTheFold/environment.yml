@@ -1,0 +1,24 @@
+name: ionthefold
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.8  # remove or adjust if CPU-only
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - ipykernel
+  - jupyterlab
+  - pyyaml
+  - tqdm
+  - pip
+  - pip:
+      - biopython
+      - einops
+      - esm==2.0.0  # placeholder if using fair-esm from pip mirror; adjust as needed

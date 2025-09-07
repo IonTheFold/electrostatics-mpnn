@@ -1,0 +1,2 @@
+model: DualPathEnhancementPredictor
+hidden_dim: 256
